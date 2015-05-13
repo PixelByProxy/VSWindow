@@ -1,0 +1,15 @@
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bin\Debug\ReverseMap\resources.pri
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bin\Debug\AppxManifest.xml
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bin\Debug\VSWindowClientWin8.build.appxrecipe
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\priconfig.xml
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\priconfig.xml.intermediate
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\layout.resfiles
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\layout.resfiles.intermediate
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\resources.resfiles
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\resources.resfiles.intermediate
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\pri.resfiles
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\pri.resfiles.intermediate
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\qualifiers.txt
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\qualifiers.txt.intermediate
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bld\Debug\ProjectArchitectures.txt

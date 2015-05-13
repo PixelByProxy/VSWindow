@@ -1,0 +1,50 @@
+--Must Have for Release--
+x - Fix byte streaming issue on client
+x - Fix settings window
+x - Reconnent when vswindow.exe closes (updating settings)
+x - Fix log directory
+x - Update window title close/open solution doesn't update title
+x - Show solution name
+x - IP instead of "Server Name" in settings
+x - First selected instance (pass in process id)
+x - Fix icon
+x - Instance closed events (closed, opened)
+x - Show not connected instead of no instance selected
+x - Settings from central location
+x - Options status text
+x - Random folder firewall issue
+x - Issue where instance is not selected when selected is closed
+Firewall
+x - Solution name length
+x - Test password
+x - Unable to select instance
+x - Vertical orientation instance startup issue
+
+
+ /ReSharper.Suspend
+
+--Nice to Have--
+Select instance after saving connection
+Open documents show full path
+Sorting open documents
+Instance name doesn't clear when there is an invalid password
+
+
+-- Future --
+Multiple connections																	 
+Toolbar window multiple views
+Status bar in VS
+Change iPad toolbar color when debugging
+Send crash report
+Request feature
+Add Toolbar buttons in the order they are selected
+Toggle Start/Stop debugging on toolbar
+Zooming on command and output window
+Add Breakpoint
+Bookmarks
+recent projects
+Frequently used docs
+USB/Cloud support
+TFS support
+Find and replace
+Solution explorer

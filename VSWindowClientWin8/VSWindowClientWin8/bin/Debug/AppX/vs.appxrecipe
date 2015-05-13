@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RYAN-MACPC</Machine>
+    <WindowsUser>Ryan</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>adbeb61f-3447-404b-aae0-0ee5d478727a</PackageIdentityName>
+    <RegisteredManifestChecksum>4B453F178A27D50E91A14BDA4853127716288A03ADE565924B63AE496D071E51</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>adbeb61f-3447-404b-aae0-0ee5d478727a_1.1.0.0_neutral__3y0bchp7kwvet</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>adbeb61f-3447-404b-aae0-0ee5d478727a_3y0bchp7kwvet!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>adbeb61f-3447-404b-aae0-0ee5d478727a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Ryan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:06:26.440</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-10-24T06:05:58.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\items\items.css">
+      <PackagePath>pages\items\items.css</PackagePath>
+      <Modified>2013-10-24T06:05:58.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\split\split.css">
+      <PackagePath>pages\split\split.css</PackagePath>
+      <Modified>2013-10-24T06:05:59.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\bigbutton_black.png">
+      <PackagePath>images\bigbutton_black.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\bigbutton_white.png">
+      <PackagePath>images\bigbutton_white.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\breakpoint_icon.png">
+      <PackagePath>images\breakpoint_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\close.png">
+      <PackagePath>images\close.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\command_icon.png">
+      <PackagePath>images\command_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\document_icon.png">
+      <PackagePath>images\document_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:59.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\Error.png">
+      <PackagePath>images\Error.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\error_icon.png">
+      <PackagePath>images\error_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\home.png">
+      <PackagePath>images\home.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\instances.png">
+      <PackagePath>images\instances.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:05:59.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\output_icon.png">
+      <PackagePath>images\output_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\placeholder_bg.png">
+      <PackagePath>images\placeholder_bg.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:05:58.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:05:58.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:05:58.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\storelogo.scale-140.png">
+      <PackagePath>images\storelogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:05:58.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\storelogo.scale-180.png">
+      <PackagePath>images\storelogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-24T06:05:59.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\task_icon.png">
+      <PackagePath>images\task_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\toolbar_icon.png">
+      <PackagePath>images\toolbar_icon.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\images\Warning.png">
+      <PackagePath>images\Warning.png</PackagePath>
+      <Modified>2013-10-24T06:05:58.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-10-24T06:05:59.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-10-24T06:05:58.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-10-24T06:05:58.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\js\socket.js">
+      <PackagePath>js\socket.js</PackagePath>
+      <Modified>2013-10-24T06:05:59.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\navbar\navbar.js">
+      <PackagePath>pages\navbar\navbar.js</PackagePath>
+      <Modified>2013-10-24T06:05:58.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\items\items.js">
+      <PackagePath>pages\items\items.js</PackagePath>
+      <Modified>2013-10-24T06:05:58.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\split\split.js">
+      <PackagePath>pages\split\split.js</PackagePath>
+      <Modified>2013-10-24T06:05:58.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\toolbar\toobar.js">
+      <PackagePath>pages\toolbar\toobar.js</PackagePath>
+      <Modified>2013-10-24T06:05:59.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\navbar\navbar.html">
+      <PackagePath>pages\navbar\navbar.html</PackagePath>
+      <Modified>2013-10-24T06:05:58.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\items\items.html">
+      <PackagePath>pages\items\items.html</PackagePath>
+      <Modified>2013-10-24T06:05:58.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\split\split.html">
+      <PackagePath>pages\split\split.html</PackagePath>
+      <Modified>2013-10-24T06:05:58.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-10-24T06:05:59.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\pages\toolbar\toolbar.html">
+      <PackagePath>pages\toolbar\toolbar.html</PackagePath>
+      <Modified>2013-10-24T06:05:58.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Ryan\Documents\Projects\VSWindow\VSWindowClientWin8\VSWindowClientWin8\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-10-24T06:06:26.308</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

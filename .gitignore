@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.db
+/VSExtension/CodeCommanderServer/bin
+/VSExtension/CodeCommanderServer/obj
+/VSExtension/VSWindow.Firewall/obj
+/VSExtension/VSWindow.Server.Host/bin
+/VSExtension/VSWindow.Server.Host/obj
+/VSExtension/VSWindow.Server.Shared/bin
+/VSExtension/VSWindow.Server.Shared/obj
