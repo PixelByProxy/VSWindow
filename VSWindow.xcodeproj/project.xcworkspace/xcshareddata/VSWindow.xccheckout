@@ -10,8 +10,6 @@
 	<string>VSWindow</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>003c9558-3d2b-4852-9c6d-984510966aa5</key>
-		<string>https://ryan.heideman%40pixelbyproxy.com@pl3.projectlocker.com/PixelByProxy/CodeCommander/svn</string>
 		<key>A755151496BCAD0431693D8C5B10AE2F3EB27E6C</key>
 		<string>https://pixelbyproxy.visualstudio.com/DefaultCollection/_git/VSWindow</string>
 	</dict>
@@ -19,8 +17,6 @@
 	<string>VSWindow.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>003c9558-3d2b-4852-9c6d-984510966aa5</key>
-		<string>../../../svn</string>
 		<key>A755151496BCAD0431693D8C5B10AE2F3EB27E6C</key>
 		<string>../..</string>
 	</dict>
@@ -32,14 +28,6 @@
 	<string>A755151496BCAD0431693D8C5B10AE2F3EB27E6C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>003c9558-3d2b-4852-9c6d-984510966aa5</string>
-			<key>IDESourceControlWCCName</key>
-			<string>svn</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
