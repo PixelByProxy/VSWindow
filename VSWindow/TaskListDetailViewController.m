@@ -123,6 +123,7 @@
 - (void)connectionStateChanged:(BOOL) connected
 {
     [self updateControlsEnabledState:connected && self.connection.activeInstance != nil];
+    [self setButtonState];
     
     if (connected)
     {
@@ -139,6 +140,21 @@
     else
     {
         [self updateControlsEnabledState:NO];
+    }
+    
+    [self setButtonState];
+}
+
+- (void)setButtonState
+{
+    if (self.connection.connected && self.connection.activeInstance != nil && self.connection.activeInstance.version < 2015) {
+        ExtendedUIBarButtonItem* editButton = [[ExtendedUIBarButtonItem alloc] initWithMetro:@"Edit" target:self action:@selector(toggleEditMode:)];
+        ExtendedUIBarButtonItem* addButton = [[ExtendedUIBarButtonItem alloc] initWithMetro:@"Add" target:self action:@selector(showAddDialog:)];
+     
+        NSArray* rightButtons = [NSArray arrayWithObjects: addButton, editButton, nil];
+        [self.navigationItem setRightBarButtonItems:rightButtons];
+    } else {
+        [self.navigationItem setRightBarButtonItems:nil];
     }
 }
 
@@ -162,15 +178,8 @@
 
     self.connection = [self.appDelegate getConnection];
 
-    ExtendedUIBarButtonItem *editButton = [[ExtendedUIBarButtonItem alloc] initWithMetro:@"Edit" target:self action:@selector(toggleEditMode:)];
-    ExtendedUIBarButtonItem *addButton = [[ExtendedUIBarButtonItem alloc] initWithMetro:@"Add" target:self action:@selector(showAddDialog:)];
-    
-    // set the initial enabled state
-    editButton.enabled = self.connection.connected && self.connection.activeInstance != nil;
-    addButton.enabled = self.connection.connected && self.connection.activeInstance != nil;
-    
-    NSArray* rightButtons = [NSArray arrayWithObjects: addButton, editButton, nil];
-    [self.navigationItem setRightBarButtonItems:rightButtons];
+    [self setButtonState];
+
 }
 
 - (void)viewDidUnload
