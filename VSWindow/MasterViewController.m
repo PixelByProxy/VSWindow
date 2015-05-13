@@ -103,7 +103,10 @@ static NSString *NotConnectedTitle = @"Not connected";
     {
         NSString *title = [dict valueForKey:@"InstanceTitle"];
         
-        label.text = title;
+        if (title != nil && title != (id)[NSNull null])
+        {
+            label.text = title;
+        }
     }
 }
 
@@ -221,7 +224,7 @@ static NSString *NotConnectedTitle = @"Not connected";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 6;
+    return 7;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section

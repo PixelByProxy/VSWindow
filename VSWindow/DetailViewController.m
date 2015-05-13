@@ -769,14 +769,13 @@ NSInteger const OrientationYOffset = 120;
     [self.navigationItem setRightBarButtonItems:rightButtons];
 
     // check the starup orientation
-    BOOL atLeastIOS6 = [[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0f;
     BOOL inPortraitMode = NO;
     
     // for some reason this check doesn't work on initial startup on iOS 5.x
     // but must be used after the initial startup or the value is wrong
-    if (atLeastIOS6 || self.appDelegate.detailHasLoaded)
+    if (self.appDelegate.detailHasLoaded)
     {
-        UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+        UIDeviceOrientation orientation = (UIDeviceOrientation)[[UIApplication sharedApplication] statusBarOrientation];
         inPortraitMode = UIDeviceOrientationIsPortrait(orientation);
     }
     else

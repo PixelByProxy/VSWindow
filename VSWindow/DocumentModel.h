@@ -14,6 +14,7 @@
 - (void)navigate:(NSString *)documentId;
 - (void)close:(NSString *)documentId;
 - (void)closeAll;
+- (void)explore:(NSString *)documentId;
 - (NSMutableArray*)parseGetOpenDocumentsResponse:(NSDictionary *)response;;
 
 @end

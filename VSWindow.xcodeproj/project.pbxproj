@@ -57,6 +57,7 @@
 		947DE5AC15BE618E0094716D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 947DE5AB15BE618E0094716D /* Default-Portrait@2x~ipad.png */; };
 		947DE5AE15BE61A30094716D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 947DE5AD15BE61A30094716D /* Default-Landscape~ipad.png */; };
 		947DE5B015BE61B50094716D /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 947DE5AF15BE61B50094716D /* Default-Landscape@2x~ipad.png */; };
+		947EF4111B03C820003D3C25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947EF4101B03C820003D3C25 /* Images.xcassets */; };
 		9481418C15BD063400AFF45C /* CommandWindowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9481418A15BD063400AFF45C /* CommandWindowDetailViewController.m */; };
 		9481418D15BD063400AFF45C /* CommandWindowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9481418B15BD063400AFF45C /* CommandWindowDetailViewController.xib */; };
 		94821BF517F151BD00C54B48 /* FormSheetBaseUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94821BF417F151BD00C54B48 /* FormSheetBaseUIViewController.m */; };
@@ -109,6 +110,8 @@
 		94CEA92C18680F7800BAB121 /* SolutionExplorerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94CEA92A18680F7800BAB121 /* SolutionExplorerDetailViewController.xib */; };
 		94CEA92F186810FE00BAB121 /* SolutionExplorerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CEA92E186810FE00BAB121 /* SolutionExplorerModel.m */; };
 		94CEA9321868119800BAB121 /* SolutionExplorerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CEA9311868119800BAB121 /* SolutionExplorerItem.m */; };
+		94CFC47719E5B91E007CBC07 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CFC47519E5B91E007CBC07 /* folder.png */; };
+		94CFC47819E5B91E007CBC07 /* folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CFC47619E5B91E007CBC07 /* folder@2x.png */; };
 		94D8698C15EDC901004161AB /* placeholder_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D8698B15EDC901004161AB /* placeholder_bg.png */; };
 		94DC8FD915B67CF500D872B2 /* ErrorListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DC8FD715B67CF500D872B2 /* ErrorListDetailViewController.m */; };
 		94DC8FDA15B67CF500D872B2 /* ErrorListDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DC8FD815B67CF500D872B2 /* ErrorListDetailViewController.xib */; };
@@ -205,6 +208,7 @@
 		947DE5AB15BE618E0094716D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		947DE5AD15BE61A30094716D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		947DE5AF15BE61B50094716D /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		947EF4101B03C820003D3C25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9481418915BD063400AFF45C /* CommandWindowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandWindowDetailViewController.h; sourceTree = "<group>"; };
 		9481418A15BD063400AFF45C /* CommandWindowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandWindowDetailViewController.m; sourceTree = "<group>"; };
 		9481418B15BD063400AFF45C /* CommandWindowDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommandWindowDetailViewController.xib; sourceTree = "<group>"; };
@@ -295,6 +299,8 @@
 		94CEA92E186810FE00BAB121 /* SolutionExplorerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionExplorerModel.m; sourceTree = "<group>"; };
 		94CEA9301868119800BAB121 /* SolutionExplorerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionExplorerItem.h; sourceTree = "<group>"; };
 		94CEA9311868119800BAB121 /* SolutionExplorerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionExplorerItem.m; sourceTree = "<group>"; };
+		94CFC47519E5B91E007CBC07 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		94CFC47619E5B91E007CBC07 /* folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder@2x.png"; sourceTree = "<group>"; };
 		94D8698B15EDC901004161AB /* placeholder_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder_bg.png; sourceTree = "<group>"; };
 		94DC8FD615B67CF500D872B2 /* ErrorListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorListDetailViewController.h; sourceTree = "<group>"; };
 		94DC8FD715B67CF500D872B2 /* ErrorListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorListDetailViewController.m; sourceTree = "<group>"; };
@@ -343,6 +349,8 @@
 		941BF58A15C2422D0057D8C4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				94CFC47519E5B91E007CBC07 /* folder.png */,
+				94CFC47619E5B91E007CBC07 /* folder@2x.png */,
 				9496BF7517EFF77900371222 /* navbg@ios7.png */,
 				940E759617EFDF510028FF6E /* redcircle_empty@2x.png */,
 				940E759717EFDF510028FF6E /* redcircle_full@2x.png */,
@@ -425,6 +433,7 @@
 				9446347D14363B5A00C29A19 /* UI */,
 				9446344A143639F000C29A19 /* AppDelegate.h */,
 				9446344B143639F000C29A19 /* AppDelegate.m */,
+				947EF4101B03C820003D3C25 /* Images.xcassets */,
 				94463442143639F000C29A19 /* Supporting Files */,
 			);
 			path = VSWindow;
@@ -661,7 +670,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Pixel by Proxy";
 				TargetAttributes = {
 					94463438143639F000C29A19 = {
@@ -696,6 +705,7 @@
 				94463458143639F000C29A19 /* DetailViewController.xib in Resources */,
 				9496BF7617EFF77900371222 /* navbg@ios7.png in Resources */,
 				94B736A61438E6A3001A5EB7 /* BreakpointsDetailViewController.xib in Resources */,
+				947EF4111B03C820003D3C25 /* Images.xcassets in Resources */,
 				94B736B2143A805A001A5EB7 /* OutputDetailViewController.xib in Resources */,
 				944EF379143D4EF6004950F3 /* ConnectionViewController.xib in Resources */,
 				940E759017EFC9370028FF6E /* settings.png in Resources */,
@@ -720,6 +730,7 @@
 				941BF59315C251E50057D8C4 /* Warning.png in Resources */,
 				94879E6715C5C73100817A9B /* checked.png in Resources */,
 				94879E6815C5C73100817A9B /* unchecked.png in Resources */,
+				94CFC47719E5B91E007CBC07 /* folder.png in Resources */,
 				94879E7D15C5E1AA00817A9B /* TaskEditViewController.xib in Resources */,
 				94697C0D15C7897200AD184A /* OptionListViewController.xib in Resources */,
 				940E757517EFC18F0028FF6E /* unchecked@2x.png in Resources */,
@@ -736,6 +747,7 @@
 				94ECFFC617CF049C0088A26A /* AddConnectionViewController.xib in Resources */,
 				94E05956167B16E400C879D0 /* output_icon.png in Resources */,
 				94E0595A167B1CA100C879D0 /* error_icon.png in Resources */,
+				94CFC47819E5B91E007CBC07 /* folder@2x.png in Resources */,
 				94A33DE3167B21E600FC8991 /* task_icon.png in Resources */,
 				94977EA1167B25B000FF4957 /* toolbar_icon.png in Resources */,
 				948FF777167BF3F80040BF6D /* navbg.png in Resources */,
@@ -877,6 +889,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -891,7 +904,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -916,6 +929,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
@@ -924,7 +938,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "EBC3B8DB-BD82-48E1-938B-0E2FDB847B01";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EBC3B8DB-BD82-48E1-938B-0E2FDB847B01";
@@ -937,6 +951,8 @@
 		94463471143639F000C29A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -951,6 +967,8 @@
 		94463472143639F000C29A19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

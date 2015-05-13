@@ -45,6 +45,14 @@
     [self.connection sendCommand:dict];
 }
 
+- (void)explore:(NSString *)documentId
+{
+    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+                          @"Explore", @"CommandName", documentId, @"CommandArgs", nil];
+    
+    [self.connection sendCommand:dict];
+}
+
 - (NSMutableArray*)parseGetOpenDocumentsResponse:(NSDictionary *)response;
 {
     NSArray *items = [response valueForKey:@"OpenDocuments"];

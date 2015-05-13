@@ -57,7 +57,7 @@
 @synthesize oStream = _oStream;
 @synthesize iStream = _iStream;
 
-NSInteger const expectedServiceVersion = 5;
+NSInteger const expectedServiceVersion = 6;
 
 #pragma mark - Public Methods
 

@@ -82,6 +82,21 @@
     }
 }
 
+- (void) handleChecking:(UITapGestureRecognizer *)tapRecognizer
+{
+    if (!self.connection.connected || self.connection.activeInstance == nil)
+    {
+        return;
+    }
+    
+    CGPoint tapLocation = [tapRecognizer locationInView:self.tableView];
+    NSIndexPath *tappedIndexPath = [self.tableView indexPathForRowAtPoint:tapLocation];
+    
+    DocumentItem *item = [self.openDocs objectAtIndex:tappedIndexPath.row];
+    
+    [self.model explore:item.documentId];
+}
+
 #pragma mark - CommandResponseDelegate
 
 - (void)operationShouldProceed:(NSDictionary*) dict
@@ -210,8 +225,18 @@
     {
         NSArray* pathParts = [item.documentId componentsSeparatedByString:@"\\"];
         
-        if (pathParts.count > 1)
+        if (pathParts.count > 1) {
             cell.detailTextLabel.text = [[pathParts subarrayWithRange:NSMakeRange(0, pathParts.count - 1)] componentsJoinedByString:@"\\"];
+            
+            UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"folder.png"]];
+            cell.accessoryView = imageView;
+            cell.accessoryType = UITableViewCellAccessoryDetailButton;
+            [imageView sizeToFit];
+            
+            UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleChecking:)];
+            [imageView addGestureRecognizer:tap];
+            imageView.userInteractionEnabled = YES;
+        }
     }
     
     /*
