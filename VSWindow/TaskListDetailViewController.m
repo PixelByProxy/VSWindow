@@ -145,8 +145,7 @@
     [self setButtonState];
 }
 
-- (void)setButtonState
-{
+- (void)setButtonState {
     if (self.connection.connected && self.connection.activeInstance != nil && self.connection.activeInstance.version < 2015) {
         ExtendedUIBarButtonItem* editButton = [[ExtendedUIBarButtonItem alloc] initWithMetro:@"Edit" target:self action:@selector(toggleEditMode:)];
         ExtendedUIBarButtonItem* addButton = [[ExtendedUIBarButtonItem alloc] initWithMetro:@"Add" target:self action:@selector(showAddDialog:)];
