@@ -23,9 +23,6 @@ namespace PixelByProxy.VSWindow.Server.Shared.Model
                 Category = item.Category,
                 Checked = item.Checked,
                 Description = item.Description.Replace(Environment.NewLine, replaceNewLine),
-                Displayed = item.Displayed,
-                Priority = (int)item.Priority,
-                Subcategory = item.SubCategory,
                 TaskItem = item
             };
 
@@ -38,6 +35,9 @@ namespace PixelByProxy.VSWindow.Server.Shared.Model
             }
             else if (string.Equals(tli.Category, "User", StringComparison.Ordinal))
             {
+                tli.Displayed = item.Displayed;
+                tli.Priority = (int) item.Priority;
+                tli.Subcategory = item.SubCategory;
                 tli.GenerateId(item.Description, index);
             }
             else

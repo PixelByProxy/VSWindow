@@ -137,7 +137,7 @@ namespace PixelByProxy.VSWindow.Server.Services
                 switch(devEnvVersion.FileMajorPart)
                 {
                     case 14:
-                        instance.Version = 2014;
+                        instance.Version = 2015;
                         break;
                     case 12:
                         instance.Version = 2013;
