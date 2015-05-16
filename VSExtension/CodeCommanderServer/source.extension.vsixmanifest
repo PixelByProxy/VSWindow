@@ -3,7 +3,7 @@
     <Identifier Id="com.pixelbyproxy.VSWindow">
         <Name>VS Window - Visual Studio Remote</Name>
         <Author>Pixel by Proxy</Author>
-        <Version>1.0.0.6</Version>
+        <Version>1.1.0.7</Version>
         <Description xml:space="preserve">Remotely control your Visual Studio development environment from your iPad.</Description>
         <Locale>1033</Locale>
         <InstalledByMsi>false</InstalledByMsi>
